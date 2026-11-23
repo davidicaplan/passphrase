@@ -3,6 +3,8 @@
 A minimal passphrase generator in the style `Word-Word-####-Word-Word`, using the
 [EFF Large Wordlist](https://www.eff.org/dice) (7,776 words).
 
+Live site: https://passphrase-pi.vercel.app/ (deploys automatically from `main` via Vercel).
+
 - Choose the number of words, number of digits, capitalization, and separator symbol.
 - Randomness comes from the browser's `crypto.getRandomValues` with rejection sampling (no modulo bias).
 - Single self-contained `index.html`: no build step, no dependencies, no network requests.
